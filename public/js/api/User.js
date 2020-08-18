@@ -36,10 +36,10 @@ class User {
    * */
   static fetch(data, callback = (f) => f) {
     return createRequest({
-      url: User.URL + "/current",
+      url: User.URL + '/current',
       data: data,
-      responseType: "json",
-      method: "GET",
+      responseType: 'json',
+      method: 'GET',
       callback: (err, response) => {
         if (response && response.user) {
           User.setCurrent(response.user);
@@ -60,10 +60,10 @@ class User {
    * */
   static login(data, callback = (f) => f) {
     return createRequest({
-      url: User.URL + "/login",
+      url: User.URL + '/login',
       data: data,
-      responseType: "json",
-      method: "POST",
+      responseType: 'json',
+      method: 'POST',
       callback: (err, response) => {
         if (response && response.user) {
           User.setCurrent(response.user);
@@ -79,12 +79,12 @@ class User {
    * сохранить пользователя через метод
    * User.setCurrent.
    * */
-  static register( data, callback = f => f ) {
+  static register(data, callback = (f) => f) {
     return createRequest({
-      url: User.URL + "/register",
+      url: User.URL + '/register',
       data: data,
-      responseType: "json",
-      method: "POST",
+      responseType: 'json',
+      method: 'POST',
       callback: (err, response) => {
         if (response && response.user) {
           User.setCurrent(response.user);
@@ -98,12 +98,12 @@ class User {
    * Производит выход из приложения. После успешного
    * выхода необходимо вызвать метод User.unsetCurrent
    * */
-  static logout( data, callback = f => f ) {
+  static logout(data, callback = (f) => f) {
     return createRequest({
-      url: User.URL + "/logout",
+      url: User.URL + '/logout',
       data: data,
-      responseType: "json",
-      method: "POST",
+      responseType: 'json',
+      method: 'POST',
       callback: (err, response) => {
         if (response && response.user) {
           User.setCurrent(response.user);
