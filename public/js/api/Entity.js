@@ -4,8 +4,6 @@
  * Имеет свойство URL, равно пустой строке.
  * */
 class Entity {
-  static URL = '';
-
   /**
    * Запрашивает с сервера список данных.
    * Это могут быть счета или доходы/расходы
@@ -27,7 +25,7 @@ class Entity {
    * что наследуется от Entity)
    * */
   static create(data, callback = (f) => f) {
-    modifiedData = Object.assign({_method: 'PUT'}, data );
+    const modifiedData = Object.assign({_method: 'PUT'}, data );
 
     return createRequest({
       url: Entity.URL,
@@ -57,7 +55,7 @@ class Entity {
    * (в зависимости от того, что наследуется от Entity)
    * */
   static remove(id = '', data, callback = (f) => f) {
-    modifiedData = Object.assign({_method: 'PUT', id: id}, data );
+    const modifiedData = Object.assign({_method: 'PUT', id: id}, data );
 
     return createRequest({
       url: Entity.URL,
@@ -69,3 +67,4 @@ class Entity {
   }
 }
 
+Entity.URL = '';
