@@ -19,13 +19,13 @@ class Sidebar {
    * при нажатии на кнопку .sidebar-toggle
    * */
   static initToggleButton() {
-    const sidebarMini = document.querySelector(".sidebar-mini");
-    const sidebarToggle = document.querySelector(".sidebar-toggle");
-    
-    sidebarToggle.addEventListener("click", event => {
+    const sidebarMini = document.querySelector('.sidebar-mini');
+    const sidebarToggle = document.querySelector('.sidebar-toggle');
+
+    sidebarToggle.addEventListener('click', event => {
       event.preventDefault();
-      sidebarMini.classList.toggle("sidebar-open");
-      sidebarMini.classList.toggle("sidebar-collapse");
+      sidebarMini.classList.toggle('sidebar-open');
+      sidebarMini.classList.toggle('sidebar-collapse');
     });
   }
 
