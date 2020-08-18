@@ -35,15 +35,15 @@ class TransactionsPage {
   registerEvents() {
     this.element.addEventListener('click', event => {
       event.preventDefault();
-      const buttonRemoveAccount = event.target.closest('.remove-account');
-      const buttonRemoveTransaction = event.target.closest('.transaction__remove');
+      const btnRemoveAccount = event.target.closest('.remove-account');
+      const btnRemoveTransaction = event.target.closest('.transaction__remove');
 
-      if (buttonRemoveAccount) {
+      if (btnRemoveAccount) {
         this.removeAccount();
       }
 
-      if (buttonRemoveTransaction) {
-        const id = buttonRemoveTransaction.dataset.id;
+      if (btnRemoveTransaction) {
+        const id = btnRemoveTransaction.dataset.id;
         this.removeTransaction(id);
       }
     });

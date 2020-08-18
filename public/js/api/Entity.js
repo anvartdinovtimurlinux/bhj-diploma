@@ -55,13 +55,13 @@ class Entity {
    * (в зависимости от того, что наследуется от Entity)
    * */
   static remove(id = '', data, callback = (f) => f) {
-    const modifiedData = Object.assign(data, {_method: 'PUT', id: id});
+    const modifiedData = Object.assign(data, {_method: 'DELETE', id: id});
 
     return createRequest({
       url: this.URL,
       data: modifiedData,
       responseType: 'json',
-      method: 'GET',
+      method: 'POST',
       callback: callback
     });
   }
