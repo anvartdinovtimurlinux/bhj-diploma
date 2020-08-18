@@ -24,10 +24,10 @@ class CreateTransactionForm extends AsyncForm {
       if (response && response.data) {
         accountsSelect.innerHTML = '';
 
-        response.data.forEach(item => {
+        response.data.forEach((item) => {
           accountsSelect.innerHTML += `
-            <option value='
-              ${item.id}'>${item.name}
+            <option value='${item.id}'>
+              ${item.name}
             </option>`;
         });
       }

@@ -13,6 +13,13 @@
       "password": "demo",
       "id": "3put3xcvkdzqokow",
       "isAuthorized": true
+    },
+    {
+      "name": "slinux",
+      "email": "linux@demo.rus",
+      "password": "demos",
+      "id": "3put310i8kdzvdr2p",
+      "isAuthorized": false
     }
   ],
   "accounts": [
@@ -30,6 +37,26 @@
       "name": "Бизнес",
       "user_id": "1",
       "id": "3"
+    },
+    {
+      "name": "dfhdf",
+      "user_id": "3put310i8kdzvdr2p",
+      "id": "3put310ydkdzvy2oq"
+    },
+    {
+      "name": "sdgdsg",
+      "user_id": "3put310i8kdzvdr2p",
+      "id": "3put3111ckdzw0a12"
+    },
+    {
+      "name": "dfh",
+      "user_id": "3put310i8kdzvdr2p",
+      "id": "3put3116tkdzw441y"
+    },
+    {
+      "name": "fchfd",
+      "user_id": "3put3xcvkdzqokow",
+      "id": "3put311u7kdzwskcl"
     }
   ],
   "transactions": [
@@ -167,6 +194,206 @@
       "sum": 300000,
       "type": "expense",
       "user_id": "1"
+    },
+    {
+      "id": "3put310yqkdzvy8t4",
+      "type": "INCOME",
+      "name": "sdfge",
+      "sum": 24,
+      "account_id": "\r\n              3put310ydkdzvy2oq",
+      "created_at": "2020-08-18T11:50:34.263Z"
+    },
+    {
+      "id": "3put310ytkdzvygmt",
+      "type": "EXPENSE",
+      "name": "dzgdshzdf",
+      "sum": 234325,
+      "account_id": "\r\n              3put310ydkdzvy2oq",
+      "created_at": "2020-08-18T11:50:44.404Z"
+    },
+    {
+      "id": "3put3111qkdzw0g5r",
+      "type": "INCOME",
+      "name": "dgsd",
+      "sum": 200,
+      "account_id": "\r\n              3put310ydkdzvy2oq",
+      "created_at": "2020-08-18T11:52:17.102Z"
+    },
+    {
+      "id": "3put3111vkdzw0onp",
+      "type": "INCOME",
+      "name": "dfgdsgh",
+      "sum": 200,
+      "account_id": "\r\n              3put310ydkdzvy2oq",
+      "created_at": "2020-08-18T11:52:28.116Z"
+    },
+    {
+      "id": "3put31127kdzw1g19",
+      "type": "INCOME",
+      "name": "sdgsdg",
+      "sum": 123,
+      "account_id": "\r\n              3put310ydkdzvy2oq",
+      "created_at": "2020-08-18T11:53:03.596Z"
+    },
+    {
+      "id": "3put3116xkdzw4cbh",
+      "type": "INCOME",
+      "name": "linux",
+      "sum": 100,
+      "account_id": "\r\n              3put310ydkdzvy2oq",
+      "created_at": "2020-08-18T11:55:18.748Z"
+    },
+    {
+      "id": "3put3118ykdzw79ua",
+      "type": "INCOME",
+      "name": "dipFireWorker",
+      "sum": 100,
+      "account_id": "\r\n              3put310ydkdzvy2oq",
+      "created_at": "2020-08-18T11:57:35.505Z"
+    },
+    {
+      "id": "3put31193kdzw9s3u",
+      "type": "INCOME",
+      "name": "sdgsdg",
+      "sum": 100,
+      "account_id": "\r\n              3put310ydkdzvy2oq",
+      "created_at": "2020-08-18T11:59:32.489Z"
+    },
+    {
+      "id": "3put311bbkdzwapmp",
+      "type": "INCOME",
+      "name": "dipFireWorker",
+      "sum": 234,
+      "account_id": "\r\n              3put310ydkdzvy2oq",
+      "created_at": "2020-08-18T12:00:15.936Z"
+    },
+    {
+      "id": "3put311d8kdzwfpqo",
+      "type": "INCOME",
+      "name": "dipFireWorker",
+      "sum": 123,
+      "account_id": "\r\n              3put310ydkdzvy2oq",
+      "created_at": "2020-08-18T12:04:09.359Z"
+    },
+    {
+      "id": "3put311dokdzwgaux",
+      "type": "INCOME",
+      "name": "dgsd",
+      "sum": 200,
+      "account_id": "\r\n              3put310ydkdzvy2oq",
+      "created_at": "2020-08-18T12:04:36.728Z"
+    },
+    {
+      "id": "3put311e8kdzwgjd0",
+      "type": "INCOME",
+      "name": "sdgsdg",
+      "sum": 100,
+      "account_id": "\r\n              3put310ydkdzvy2oq",
+      "created_at": "2020-08-18T12:04:47.747Z"
+    },
+    {
+      "id": "3put311ebkdzwgr7q",
+      "type": "INCOME",
+      "name": "sdgsdg",
+      "sum": 324,
+      "account_id": "\r\n              3put310ydkdzvy2oq",
+      "created_at": "2020-08-18T12:04:57.925Z"
+    },
+    {
+      "id": "3put311hckdzwkghu",
+      "type": "INCOME",
+      "name": "dipFireWorker",
+      "sum": 123,
+      "account_id": "\r\n              3put310ydkdzvy2oq",
+      "created_at": "2020-08-18T12:07:50.657Z"
+    },
+    {
+      "id": "3put311i2kdzwlv5a",
+      "type": "INCOME",
+      "name": "dipFireWorker",
+      "sum": 123,
+      "account_id": "3put310ydkdzvy2oq",
+      "created_at": "2020-08-18T12:08:56.301Z"
+    },
+    {
+      "id": "3put311mbkdzwo82k",
+      "type": "INCOME",
+      "name": "sdgsdg",
+      "sum": 123,
+      "account_id": "\r\n              3put310ydkdzvy2oq",
+      "created_at": "2020-08-18T12:10:46.363Z"
+    },
+    {
+      "id": "3put311mfkdzwoexp",
+      "type": "EXPENSE",
+      "name": "linux",
+      "sum": 123412,
+      "account_id": "\r\n              3put3116tkdzw441y",
+      "created_at": "2020-08-18T12:10:55.260Z"
+    },
+    {
+      "id": "3put311n4kdzwp9vk",
+      "type": "INCOME",
+      "name": "dipFireWorker",
+      "sum": 20,
+      "account_id": "\r\n              3put310ydkdzvy2oq",
+      "created_at": "2020-08-18T12:11:35.359Z"
+    },
+    {
+      "id": "3put311oekdzwpqqe",
+      "type": "INCOME",
+      "name": "linux",
+      "sum": 123,
+      "account_id": "\r\n              3put310ydkdzvy2oq",
+      "created_at": "2020-08-18T12:11:57.205Z"
+    },
+    {
+      "id": "3put311oqkdzwpxwl",
+      "type": "INCOME",
+      "name": "dipFireWorker",
+      "sum": 234,
+      "account_id": "3put310ydkdzvy2oq",
+      "created_at": "2020-08-18T12:12:06.500Z"
+    },
+    {
+      "id": "3put311pwkdzwqfhc",
+      "type": "EXPENSE",
+      "name": "linux",
+      "sum": 123,
+      "account_id": "3put310ydkdzvy2oq",
+      "created_at": "2020-08-18T12:12:29.279Z"
+    },
+    {
+      "id": "3put311r5kdzwqwad",
+      "type": "INCOME",
+      "name": "linux",
+      "sum": 324,
+      "account_id": "3put3116tkdzw441y",
+      "created_at": "2020-08-18T12:12:51.060Z"
+    },
+    {
+      "id": "3put311sdkdzwrpgf",
+      "type": "INCOME",
+      "name": "sdgsdg",
+      "sum": 100,
+      "account_id": "3put310ydkdzvy2oq",
+      "created_at": "2020-08-18T12:13:28.862Z"
+    },
+    {
+      "id": "3put311uekdzwsosl",
+      "type": "INCOME",
+      "name": "fdh",
+      "sum": 100,
+      "account_id": "3put311u7kdzwskcl",
+      "created_at": "2020-08-18T12:14:14.660Z"
+    },
+    {
+      "id": "3put311uikdzwsuma",
+      "type": "EXPENSE",
+      "name": "linux",
+      "sum": 200,
+      "account_id": "3put311u7kdzwskcl",
+      "created_at": "2020-08-18T12:14:22.209Z"
     }
   ]
 }
