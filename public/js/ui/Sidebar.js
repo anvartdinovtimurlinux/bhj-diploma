@@ -24,6 +24,7 @@ class Sidebar {
 
     sidebarToggle.addEventListener('click', event => {
       event.preventDefault();
+      
       sidebarMini.classList.toggle('sidebar-open');
       sidebarMini.classList.toggle('sidebar-collapse');
     });
